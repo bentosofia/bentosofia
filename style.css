@@ -9,9 +9,30 @@ html {
     scroll-behavior: smooth;
 }
 
-a {
+
+a:link {
+    color: rgb(0, 0, 0); 
+    background-color: transparent; 
     text-decoration: none;
-  }
+}
+  
+a:visited {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: rgb(4, 0, 255);
+    background-color: transparent;
+    text-decoration: underline;
+}
+  
+a:active {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: underline;
+}
 #krxx {
     font-size: 15px;
     font-family: kr; 
